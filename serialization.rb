@@ -54,17 +54,17 @@ parser.people
 puts "There are #{parser.people.size} people in the file '#{parser.file}'."
 
 
-1 require 'csv'
-2 require 'date'
-3 
-4 class DateTime
-5 
-6   attr_reader :string
-7 
-8   def initialize(string)
-9   end
-10  
-11  end
+ require 'csv'
+ require 'date'
+ 
+ class DateTime
+ 
+   attr_reader :string
+ 
+   def initialize(string)
+   end
+  
+  end
 12  
 13  class Person
 14  
